@@ -1,0 +1,32 @@
+/*
+ * HAL_Keypad_config.h
+ *
+ *  Created on: 3 May 2024
+ *      Author: mosta
+ */
+
+#ifndef HAL_04_KEYPAD_HAL_KEYPAD_CONFIG_H_
+#define HAL_04_KEYPAD_HAL_KEYPAD_CONFIG_H_
+
+#include "../../00_MCAL/DIO/DIO_int.h"
+
+
+#define KEYPAD_U8_NO_OF_COLUMNS 4
+#define KEYPAD_U8_NO_OF_ROWS 4
+
+#define KEYPAD_U8_COL_PORT DIO_PORTC
+#define KEYPAD_U8_ROW_PORT DIO_PORTD
+
+#define KEYPAD_U8_COL_PIN0 DIO_PIN_0
+#define KEYPAD_U8_COL_PIN1 DIO_PIN_1
+#define KEYPAD_U8_COL_PIN2 DIO_PIN_2
+#define KEYPAD_U8_COL_PIN3 DIO_PIN_3
+
+
+#define KEYPAD_U8_ROW_PIN0 DIO_PIN_3
+#define KEYPAD_U8_ROW_PIN1 DIO_PIN_2
+#define KEYPAD_U8_ROW_PIN2 DIO_PIN_1
+#define KEYPAD_U8_ROW_PIN3 DIO_PIN_0
+
+
+#endif /* 01_HAL_04_KEYPAD_HAL_KEYPAD_CONFIG_H_ */
